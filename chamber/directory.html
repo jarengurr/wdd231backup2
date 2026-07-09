@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <title>Directory of Chamber of commerce</title>
+    <meta name="description"
+        content="Victorville Chamber of Commerce I, James Jaren Gurr, california, Chamber of commerce ">
+    <meta name="author" content="James Jaren Gurr">
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directorylarge.css">
+    <script src="scripts/directory.js" defer></script>
+    <meta property="og:title" content="Web and Computer programming certificates">
+    <meta property="og:description"
+        content="web site to list web and computer programming certificates that I have done">
+    <meta property="og:image" content="https://jarengurr.github.io/wdd231/chamber/images/hero.webp">
+    <meta property="og:image:width" content="250">
+    <meta property="og:image:height" content="250">
+    <meta property="og:url" content="https://jarengurr.github.io/wdd231/chamber/directory.html">
+    <meta property="og:locale" content="en-US">
+    <link rel="icon" href="images/victorville.ico">
+</head>
+     
+<body>
+    <header>
+        
+        <img src="images/bee.svg"   alt="Site Logo" width="48" height="48">
+        <div class="name">Victorville Chamber Directory</div>
+        <button id="ham-bt" class="hamb"></button>
+        <a id="menu1" href="#"></a>
+        <nav id="nav-list" class="navigation">
+            
+            <ul class="navigate">
+                <li><a href="#">Home</a></li>  
+                <li><a href="#" class="active">Directory</a></li>
+                <li><a href=#>Join</a></li>
+                <li><a href=#>Discover</a></li>
+                <li><a href=#>🌓</a></li>
+            </ul>
+           
+            
+        </nav>
+             
+    </header>
+   
+    <main>
+        <div>
+             <div class="hero">
+            
+                <img src="images/hero.webp" alt="family fun">
+            
+            </div>
+        </div>
+         <h1>Directory</h1>
+         <div class="maingrid">
+            <section class="events">
+                <h2>Events</h2>
+                <p>Warning: high temptures this week</p>
+                <p>Drink lots of water and stay indoors</p>
+            </section>
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <p class="symbol">☀</p>
+                <p>105ºF</p>
+                <p>Clear</p>
+                <p>High 106ºF</p>
+                <p>Low 61ºF</p>
+                <p>Humidity 5%</p>
+                <p>Sunrise </p>
+                <p>Sunset </p>
+            </section>
+            <section class="forcast">
+                <h2>Weather Forcast</h2>
+                <p>Today: 105ºF</p>
+                <p>Tommorow: 110ºF</p>
+                <p>Saturday: 100ºF</p>
+            </section>
+            <section class="business">
+                <div class="menu">
+		            <button id="grid">Grid</button>
+		            <button id="list">List</button>
+	            </div>
+                <div id="cards" class="grid"></div>
+               
+            </section>
+            
+        </div>
+       
+           
+       
+    </main>
+    <footer>
+         <nav class="clmedia"> <!--class used in css-->
+            <a href="https://www.facebook.com/jaren.gurr" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="41" height="41"></a>
+            <a href="https://www.snapchat.com/" target="_blank"><img src="images/snapchat.svg" alt="snapchat" width="41" height="41"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="41" height="41"></a>
+            
+        </nav>
+          <p>© <span id="currentyear"></span> 🌩 James Jaren Gurr ☀ California</p>
+          <p class="modfoot">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

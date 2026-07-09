@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title> Web and Computer Programming certificate </title>
+    <meta name="description" content="WDD231- Web Frontend Development I, James Jaren Gurr, california, Web and Computer Programming certificate ">
+    <meta name="author" content="James Jaren Gurr">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <meta property="og:title" content="Web and Computer programming certificates"> 
+    <meta property="og:description" content="web site to list web and computer programming certificates that I have done">
+    <meta property="og:image" content="">
+    <meta property="og:locale" content="en-US"> 
+</head>
+<body>
+    <header>
+        <img src="images/bee.svg"   alt="Site Logo" width="24" height="24">
+        <span class="me">Jaren's web site</span>
+
+        <button id="ham-bt" class="hamb"></button>
+    </header>
+    <nav id="nav-list" class="navigation">
+        <ul class="myclear">
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <span>
+            <p>help me</p>
+        </span>
+        <h1 class="head">Home</h1>
+        <section class="two">
+            <section class="content">
+                <h2>About Me</h2>
+                <p>this is a test to see how this will look and work. I hope it will work</p>
+       
+            </section>
+            <section class="pic">
+                <h2>Student Photo</h2>
+                <img src="images/images.jpg" alt="Los Angeles California Temple">
+             </section>
+        
+        </section>
+        <section class="wide">
+
+            <div>
+                <h2>Web Certificate Courses</h2>
+            </div>
+            <div class="thebutton">
+                <button id="all" aria-label="All certificates"  >All</button>
+                <button id="cse" aria-label="CSE certificates">CSE</button>
+                <button id="wdd" aria-label=" WDD certificates">WDD</button>
+            </div>
+            <div id="thelist" class="list">
+              
+                <div id="alist" class="cardlist"></div>
+            </div>
+            
+          <!-- <a href=">/images/xtry"></a> -->
+        </section>
+    </main>
+    <footer>
+         <nav class="clmedia"> <!--class used in css-->
+            <a href="https://www.facebook.com/jaren.gurr" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="41" height="41"></a>
+            <a href="https://www.snapchat.com/" target="_blank"><img src="images/snapchat.svg" alt="snapchat" width="41" height="41"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="41" height="41"></a>
+            <a href="https://github.com/jarengurr" target="_blank"><img src="images/github.svg" alt="Github" width="41" height="41"></a>
+        </nav>
+          <p>© <span id="currentyear"></span> 🌩 James Jaren Gurr ☀ California</p>
+          <p class="modfoot">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>

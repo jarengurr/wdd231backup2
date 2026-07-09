@@ -1,0 +1,17 @@
+#cards {
+    display: grid;
+	grid-gap: 0.5rem;
+	
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
+}
+section {
+    box-sizing: border-box;
+    border: solid  1px black;
+    background-color: aquamarine;
+    text-align: center;
+    padding-bottom: 9px;
+}
+section img {
+    filter:drop-shadow(8px 8px 10px);
+}

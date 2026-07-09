@@ -1,0 +1,223 @@
+* {
+    margin:0;
+ 
+    /* box-sizing: border-box; */
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    /* gap: 20px; */
+   
+}
+
+body {
+    font-family: Lora, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0px;
+}
+
+
+
+
+nav ul {
+    display:flex;
+    justify-content: right;
+     text-decoration: none;
+}
+
+header {
+    /**/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+   /* border : 1px solid #bbb; */
+    color: black;
+    background-color: rgb(54, 243, 54);
+   
+    text-decoration: none;
+   
+}
+
+header img {
+    padding-top: 10px;
+}
+.active::before {
+    content: "📍";
+    }
+.show li {
+    display:block;
+
+}
+
+.name {
+    font-size: xx-large;
+    /* padding-top: 20px; */
+    padding-left: 20px;
+    text-align: center;
+}
+.hero {
+    margin: 10px auto;
+	position:relative; 
+    width: 100%;
+    
+}
+
+.hero img {
+    width: 100%;
+	height: 500px;
+	object-fit: cover;
+     
+}
+.hero h1 {
+     font-family: "Quicksand", sans-serif;
+     font-size: 65px;
+     color: var(--marianblue);
+    
+    
+     }
+
+.weather, .forcast,.events {
+   box-sizing: border-box;
+    border: solid  1px black;
+    background-color:  rgb(54, 243, 54);
+    text-align: center;
+    padding-bottom: 9px;
+    height: 250px;
+}
+h2 {
+    width: 100%;
+    color:#eee;
+    background-color: black;
+}
+.symbol {
+    font-size: 50px;
+}
+
+
+#cards  {
+    display: grid;
+	grid-gap: 0.5rem;
+	
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    
+    border: solid  1px black;
+    background-color: rgb(54, 243, 54);
+    text-align: center;
+    padding: 9px;
+   
+}
+footer {
+    background-color: antiquewhite;
+    padding: 16px 0px;
+    text-align: center;
+}
+#cards section {
+    border: solid  5px black;
+    padding: 8px;
+}
+#menu1 {
+    display:block;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    text-align: right;
+    padding: 0.5rem 0.75rem;
+    font-size:50px;
+    color:black;
+    
+}
+#menu1::before {
+    content: "≡";
+   
+}
+#menu1.open::before {
+    content: "X";
+}
+.navigate {
+    list-style: none;
+    margin: 0 auto;
+    
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    font-size: 25px;
+    max-width: 100%;
+    align-items: center;
+}
+
+.navigate li {
+    display:none;
+   
+}
+.navigate a {
+    display: block;
+    
+    text-decoration: none;
+    
+    text-align: center;
+    padding: 0.5rem 1rem;
+    width: auto;
+}
+.navigate a:hover,
+.navigate a:active {
+    color:red;
+    background-color:  rgb(54, 243, 54);
+    justify-content: space-between;
+    text-align: center;
+}
+
+#menu1.show::before {
+    content: "X";
+}
+
+
+
+
+
+ .list {
+    display:flex;
+    flex-direction: column;
+ }
+ .list section {
+    display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-column: span 5;
+		margin: 0;
+		padding: 0.25rem;
+       
+ }
+ .list section * {
+    margin: 0 1rem;
+ }
+
+ .list section img {
+    display: none;
+ }
+
+ .list section h3 {
+    font-size: 1rem;
+ }
+ .list section h3:nth-child(even) {
+    background-color:  rgb(54, 243, 54);
+ }
+.grid, .grid section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+
+	
+}
+@media screen and (max-width: 764px) {
+    .list section {
+        display: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+    }
+}

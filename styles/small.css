@@ -1,0 +1,164 @@
+/*  Color Scheme***********************
+
+
+*/
+* {
+    box-sizing: border-box;
+
+/* HEADER ******************************************************** */
+
+}
+header {
+    display: grid;
+    grid-template-columns: 24px auto 24px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px black;
+    column-gap: 10px;
+    width: 100%;
+    background-color: antiquewhite;
+   
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ header span {
+    font-size: 24px;
+    color: rgb(4, 143, 23);
+}
+/* hambuger Menu */
+.hamb {
+    display: block;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /*  border: red solid 1px; */
+}
+
+.hamb::before {
+    content: "\2630";
+    
+}
+
+.hamb.show::before {
+    content: "\00D7";
+   
+}
+
+/* Navigation   ***************************************************** */
+.navigation {
+  display: none;
+  
+}
+
+.navigation.show {
+  display: block;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+.navigation a {
+    display:block;
+    padding:10px 10px;
+}
+/* ************************************************************** */
+ a {
+    text-decoration: none;
+    
+}
+ul {
+    list-style-type: none;
+    
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* footer******************************************************* */
+
+footer {
+    background-color: antiquewhite;
+    padding: 16px 0px;
+    text-align: center;
+}
+.clmedia {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.clmedia a {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    /* border: red dashed 1px; */
+}
+
+/* Main************************************** */
+
+main {
+   /*  display: grid;
+    grid-template-columns: 100%; */
+    border: solid green 1px;
+    gap: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0px;
+}
+
+.wide button {
+    display: flex;
+    
+     width: 100%; 
+   min-width: 320px;
+   justify-content: center;
+}
+.wide {
+    display: flex;
+    flex-direction: column;
+    
+}
+.content {
+    font-family: "Quicksand", sans-serif;
+}
+.pic img {
+    justify-content: center;
+}
+.myclear li a {
+    color: black;
+
+}
+.list {
+  display:flex;
+    border: solid 5px black;
+  justify-content: space-around;
+}
+.cardlist {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  border: solid 1px black;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+ 
+}
+.cardlist section {
+    border: solid 5px black;
+    justify-content: space-around;
+}
+.thebutton {
+    width: 100%;
+}

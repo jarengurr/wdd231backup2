@@ -1,0 +1,12 @@
+{
+"members":[
+  {"companyName":"Victorville Honey", "address":"1212 utah drive Victorville Ca 92395", "phone":"555-8212", "website":"https:/honeybee.com", "image":"images/bee.svg", "membershipLevel":"1"}, 
+  {"companyName":"Clock makers", "address":"2145 Time Lane Victorville Ca 92395", "phone":"555-1812", "website":"https:/emperorclock.com", "image":"images/clock-regular-full.svg", "membershipLevel":"2"}, 
+  {"companyName":"Ford Motor Company", "address":"6550 Auto Lane Victorville Ca 92395", "phone":"555-1212", "website":"https:/ford.com", "image":"images/solidcar.svg", "membershipLevel":"2"}, 
+  {"companyName":"Education R US", "address":"546 Learn Ave Victorville Ca 92395", "phone":"555-6212", "website":"https:/educationrus.com", "image":"images/schoolbook.svg", "membershipLevel":"1"}, 
+  {"companyName":"Pluto TV", "address":"852 Watch Street Victorville Ca 92395", "phone":"555-1233", "website":"https:/plutotv.com", "image":"images/atv.svg", "membershipLevel":"3"}, 
+  {"companyName":"Typewriters Anonymous", "address":"2323 Writers block Lane Victorville Ca 92395", "phone":"555-1772", "website":"https:/typewritersanonymous.com", "image":"images/typewriter.svg", "membershipLevel":"1"}, 
+  {"companyName":"Computer Repair", "address":"1111 Zero lane Victorville Ca 92395", "phone":"555-1552", "website":"https:/aynaxtech.com", "image":"images/computer-solid-full.svg", "membershipLevel":"1"}
+  
+]
+}
