@@ -175,7 +175,7 @@ function createClassCard() {
        
         document.querySelector(".cardlist").appendChild(classcard);
 
-        holdcount = holdcount + 1;//test
+        holdcount = holdcount + 1; //test that needs to be deleted
     }
 
     )
